@@ -18,3 +18,11 @@
         left: calc(50% - 250px);
     }
 }
+@media (max-width: 400px) and (max-height: 500px){
+    .Modal{
+        position: fixed;
+        justify-content: center;
+        align-items: center;
+        top: 25px;   
+    }
+}
